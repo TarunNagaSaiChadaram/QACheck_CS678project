@@ -25,7 +25,11 @@ def get_fresh_data(number=5):
     output_list = ["Ulrich Walter's employer is headquartered in Cologne.",
                    "Winter's Tale was the creation of a French poet.", 
                    "Donald Trump and Joe Biden were born in the same state.",
-                   "Lars Onsager won the Nobel prize when he was 30 years old."]
+                   "Lars Onsager won the Nobel prize when he was 30 years old.",
+                   "డొనాల్డ్ ట్రంప్ మరియు జో బైడెన్ ఒకే రాష్ట్రంలో పుట్టారు.",
+                   "डोनाल्ड ट्रम्प और जो बाइडेन एक ही राज्य में जन्मे थे।",
+                   "唐纳德·特朗普和乔·拜登出生在同一个州。"
+                   ]
     return output_list
 
 @app.route('/')
